@@ -1,9 +1,11 @@
-package arielspear.thedoubleclicksapp;
+package arielspear.thedoubleclicksapp.UI;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import arielspear.thedoubleclicksapp.R;
 
 public class TheDoubleClicks extends AppCompatActivity {
 
