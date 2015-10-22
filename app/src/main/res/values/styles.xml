@@ -15,4 +15,11 @@
     <style name="TransparentExpandableListView" parent="@android:style/Widget.ExpandableListView">
         <item name="android:cacheColorHint">@android:color/transparent</item>
     </style>
+
+    <style name="CustomButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#89893e</item>
+        <item name="android:layout_margin">@dimen/activity_button_margin</item>
+    </style>
 </resources>

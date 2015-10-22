@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">The Double Clicks App</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="about_the_band">About the Band</string>
+    <string name="show_albums">Show Albums</string>
 </resources>

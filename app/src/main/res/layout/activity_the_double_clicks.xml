@@ -18,13 +18,22 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
+    <Button
+        style="@style/CustomButton"
+        android:text="@string/about_the_band"
+        android:id="@+id/showAboutTheBand"
+        android:layout_above="@+id/showAlbumsButton"/>
+    <Button
+        style="@style/CustomButton"
+        android:text="@string/show_albums"
+        android:id="@+id/showAlbumsButton"
+        android:layout_alignParentBottom="true"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Their Albums"
-        android:id="@+id/showAlbumsButton"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="#89893e"/>
+        style="@style/CustomButton"
+        android:text="test button"
+        android:id="@+id/button"
+        android:layout_above="@+id/showAboutTheBand"/>
+
+
 </RelativeLayout>
